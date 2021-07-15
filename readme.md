@@ -3,15 +3,15 @@
 
 ### TODO
 * Send mail
-    - Take form inputs to send email
-    - redirect to inbox
+    - ~~Take form inputs to send email~~
+    - ~~redirect to inbox~~
 * Mailbox
-    - Get all emails for the mailbox
+    - ~~Get all emails for the mailbox~~
     - Display each email in its own box
     - White background for unread, grey background for read emails.
 * View Email
-    - Get the specific email and content.
-    - Likely needs its own div to display in index.html
+    - ~~Get the specific email and content.~~
+    - ~~Likely needs its own div to display in index.html~~
     - Use PUT request to set email as read.
 * Archive and Unarchive
     - In view email, user should be able to archive an email, or to unarchive
