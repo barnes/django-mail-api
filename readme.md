@@ -7,16 +7,16 @@
     - ~~redirect to inbox~~
 * Mailbox
     - ~~Get all emails for the mailbox~~
-    - Display each email in its own box
-    - White background for unread, grey background for read emails.
+    - ~~Display each email in its own box~~
+    - ~~White background for unread, grey background for read emails~~.
 * View Email
     - ~~Get the specific email and content.~~
     - ~~Likely needs its own div to display in index.html~~
-    - Use PUT request to set email as read.
+    - ~~Use PUT request to set email as read.~~
 * Archive and Unarchive
-    - In view email, user should be able to archive an email, or to unarchive
-    - Use put request to change status
-    - Redirect to inbox after updated archive status
+    - ~~In view email, user should be able to archive an email, or to unarchive~~
+    - ~~Use put request to change status~~
+    - ~~Redirect to inbox after updated archive status~~
 * Reply
     - When viewing an email, user can hit reply
     - Redirect to compose, with form fields pre-populated.
@@ -27,3 +27,8 @@
 #### 7.14.2021
 * Email submission form works. Redirects, pretty much completed.
 * Emails are geting displayed, if a bit ugly at the moment.
+
+### 7.15.2021
+* Single email view is set up, and email list links to it correctly.
+* Email list is cleaned up and functional.
+* Last step is the reply button functionality
