@@ -18,9 +18,9 @@
     - ~~Use put request to change status~~
     - ~~Redirect to inbox after updated archive status~~
 * Reply
-    - When viewing an email, user can hit reply
-    - Redirect to compose, with form fields pre-populated.
-    - Append RE: to subject, and original body.
+    - ~~When viewing an email, user can hit reply~~
+    - ~~Redirect to compose, with form fields pre-populated.~~
+    - ~~Append RE: to subject, and original body.~~
 
 ### Work Log
 
@@ -32,3 +32,4 @@
 * Single email view is set up, and email list links to it correctly.
 * Email list is cleaned up and functional.
 * Last step is the reply button functionality
+* Reply functionality done.

@@ -138,8 +138,28 @@ function view_email(email_id){
           load_mailbox('inbox')
         });
 
+        document.querySelector('#reply').addEventListener('click', () =>{
+          reply_email(email);
+        });
+
       // ... do something else with email ...
   });
 
   
+}
+
+function reply_email(email){
+
+  // Show compose view and hide other views
+  document.querySelector('#emails-view').style.display = 'none';
+  document.querySelector('#compose-view').style.display = 'block';
+  document.querySelector('#email-view').style.display = 'none';
+
+  // Clear out composition fields
+  document.querySelector('#compose-recipients').value = email.sender;
+  document.querySelector('#compose-subject').value = "RE: " + email.subject;
+  document.querySelector('#compose-body').value = "On " + email.timestamp + " " + email.sender + " wrote: " + email.body;
+
+  document.querySelector('#submit').addEventListener('click', send_email);
+
 }
